@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Afra Beauty Cosméticos | Maquiagem e autocuidado com envio para todo o Brasil</title>
+  <meta name="description" content="Maquiagem, skincare e autocuidado a partir de R$ 5,99, escolhidos a dedo em Porto Alegre. 10% de desconto no Pix acima de R$ 60 e envio para todo o Brasil.">
+  <meta name="theme-color" content="#3B1A2A">
+  <meta name="color-scheme" content="light">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Afra Beauty Cosméticos">
+  <meta property="og:description" content="Se mimar não precisa custar caro. Make, skincare e autocuidado com envio para todo o Brasil.">
+  <meta property="og:image" content="assets/img/marca/banner-autoestima.jpg">
+
+  <link rel="icon" href="assets/img/marca/icone-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/marca/icone-192.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Marcellus&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+      }
+    }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Afra Beauty Cosméticos",
+    "description": "Loja online de maquiagem, skincare e autocuidado com envio para todo o Brasil.",
+    "url": "https://www.afrabeauty.com.br",
+    "telephone": "+55 51 98203-2553",
+    "email": "afrabeautycosmeticos@gmail.com",
+    "image": "assets/img/marca/logo-afra.jpg",
+    "address": { "@type": "PostalAddress", "addressLocality": "Porto Alegre", "addressRegion": "RS", "addressCountry": "BR" },
+    "openingHours": ["Mo-Fr 09:00-18:00", "Sa 09:00-13:00"],
+    "sameAs": ["https://www.instagram.com/afrabeautycosmeticos/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Faixa do cupom: oferta real da loja (cupom 10OFF) -->
+  <div class="cupom" role="region" aria-label="Cupom de desconto">
+    <p class="cupom__texto">
+      <i class="ph ph-pix-logo" aria-hidden="true"></i>
+      <span>10% off no Pix acima de R$&nbsp;60 com o cupom <strong translate="no">10OFF</strong></span>
+    </p>
+    <button class="cupom__copiar" type="button" data-copiar="10OFF">
+      <i class="ph ph-copy" aria-hidden="true"></i><span>Copiar</span>
+    </button>
+  </div>
+
+  <header class="topo" data-topo>
+    <div class="topo__linha">
+      <a class="marca" href="#inicio" aria-label="Afra Beauty, voltar ao início">
+        <img class="marca__selo" src="assets/img/marca/logo-afra.jpg" alt="" width="40" height="40">
+        <span class="marca__nome" translate="no">Afra<span>Beauty</span></span>
+      </a>
+
+      <nav class="menu" id="menu" aria-label="Principal">
+        <ul>
+          <li><a href="#loja">Produtos</a></li>
+          <li><a href="#presentes">Presentes</a></li>
+          <li><a href="#como-comprar">Como comprar</a></li>
+          <li class="menu__whats"><a href="#" data-whats="Oi, Afra! Vim pelo site e queria tirar uma dúvida."><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Chamar no WhatsApp</a></li>
+        </ul>
+      </nav>
+
+      <div class="topo__acoes">
+        <button class="botao-icone sacola-botao" type="button" data-abrir-sacola aria-label="Abrir sacolinha, 0 itens">
+          <i class="ph ph-handbag-simple" aria-hidden="true"></i>
+          <span class="sacola-botao__qtd" data-sacola-qtd hidden>0</span>
+        </button>
+        <button class="botao-icone menu-botao" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu" data-menu-botao>
+          <i class="ph ph-list" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- HERO: o espelho da logo vira objeto 3D -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero__palco" data-espelho>
+        <img class="hero__poster" src="assets/img/marca/espelho-poster.jpg" alt="Espelho de mão dourado da Afra Beauty com a silhueta de uma mulher coroada" width="420" height="600" fetchpriority="high">
+      </div>
+
+      <div class="hero__texto">
+        <h1 id="hero-titulo" class="hero__titulo">Se mimar não precisa custar caro.</h1>
+        <p class="hero__sub">Maquiagem, skincare e autocuidado escolhidos a dedo, a partir de R$&nbsp;5,99, com envio para todo o Brasil.</p>
+        <div class="hero__ctas">
+          <a class="botao botao--cheio" href="#loja">Ver produtos</a>
+          <a class="botao botao--linha" href="#presentes">Ver kits presente</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promessas reais da loja, logo abaixo do hero -->
+    <section class="promessas" aria-label="Por que comprar na Afra">
+      <ul>
+        <li><i class="ph ph-truck" aria-hidden="true"></i><span><strong>Enviamos para todo o Brasil</strong>Frete calculado pelo teu CEP</span></li>
+        <li><i class="ph ph-pix-logo" aria-hidden="true"></i><span><strong>10% off no Pix</strong>Acima de R$&nbsp;60, cupom 10OFF</span></li>
+        <li><i class="ph ph-credit-card" aria-hidden="true"></i><span><strong>Até 2x sem juros</strong>No cartão de crédito</span></li>
+        <li><i class="ph ph-pencil-simple-line" aria-hidden="true"></i><span><strong>Teu nome escrito à mão</strong>No cartão que vai em cada pedido</span></li>
+      </ul>
+    </section>
+
+    <!-- Produtos que apareceram nos reels -->
+    <section class="reels" aria-labelledby="reels-titulo">
+      <div class="secao-cabeca">
+        <h2 id="reels-titulo">Viu no Insta? Tá aqui.</h2>
+        <p>Os produtos que a gente testou e mostrou nos reels, a um toque da tua sacolinha.</p>
+      </div>
+      <ul class="reels__trilho" data-trilho>
+        <li class="reel" data-revelar>
+          <a class="reel__video" href="https://www.instagram.com/afrabeautycosmeticos/reel/Db31NuLy2pu/" target="_blank" rel="noopener">
+            <img src="assets/img/insta/reel-rimel-tango.jpg" alt="Fundadora da Afra aplicando a máscara de cílios Tango" width="360" height="640" loading="lazy">
+            <span class="reel__play"><i class="ph-fill ph-play" aria-hidden="true"></i><span class="sr-only">Ver reel no Instagram</span></span>
+          </a>
+          <div class="reel__produto" data-produto-id="801319"></div>
+        </li>
+        <li class="reel" data-revelar>
+          <a class="reel__video" href="https://www.instagram.com/afrabeautycosmeticos/reel/DbnvSH0wAXi/" target="_blank" rel="noopener">
+            <img src="assets/img/insta/reel-blush-magico.jpg" alt="Blush mágico na mão, em estojo transparente" width="360" height="640" loading="lazy">
+            <span class="reel__play"><i class="ph-fill ph-play" aria-hidden="true"></i><span class="sr-only">Ver reel no Instagram</span></span>
+          </a>
+          <div class="reel__produto" data-produto-id="428802"></div>
+        </li>
+        <li class="reel" data-revelar>
+          <a class="reel__video" href="https://www.instagram.com/afrabeautycosmeticos/reel/Dbk1VYWyMrc/" target="_blank" rel="noopener">
+            <img src="assets/img/insta/reel-paleta-glass.jpg" alt="Paleta Glass da Ruby Rose fechada, na mão" width="360" height="640" loading="lazy">
+            <span class="reel__play"><i class="ph-fill ph-play" aria-hidden="true"></i><span class="sr-only">Ver reel no Instagram</span></span>
+          </a>
+          <div class="reel__produto" data-produto-id="801298"></div>
+        </li>
+        <li class="reel" data-revelar>
+          <a class="reel__video" href="https://www.instagram.com/afrabeautycosmeticos/reel/DYxXLKVS8xp/" target="_blank" rel="noopener">
+            <img src="assets/img/insta/reel-body-scrub.jpg" alt="Pote rosa do esfoliante corporal Babalife" width="361" height="640" loading="lazy">
+            <span class="reel__play"><i class="ph-fill ph-play" aria-hidden="true"></i><span class="sr-only">Ver reel no Instagram</span></span>
+          </a>
+          <div class="reel__produto" data-produto-id="534939"></div>
+        </li>
+        <li class="reel" data-revelar>
+          <a class="reel__video" href="https://www.instagram.com/afrabeautycosmeticos/p/DbV2rn8gDau/" target="_blank" rel="noopener">
+            <img src="assets/img/insta/post-mascara-black.jpg" alt="Tubo da máscara facial Black Peel Off com os benefícios ao redor" width="480" height="640" loading="lazy">
+            <span class="reel__play reel__play--foto"><i class="ph ph-instagram-logo" aria-hidden="true"></i><span class="sr-only">Ver post no Instagram</span></span>
+          </a>
+          <div class="reel__produto" data-produto-id="801305"></div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Loja: catálogo completo com filtros -->
+    <section class="loja" id="loja" aria-labelledby="loja-titulo">
+      <div class="secao-cabeca">
+        <h2 id="loja-titulo">Escolhe teu mimo</h2>
+        <p>Make, skincare e autocuidado, quase tudo abaixo de R$&nbsp;25.</p>
+      </div>
+
+      <div class="filtros">
+        <div class="busca">
+          <label class="sr-only" for="busca">Buscar produto ou marca</label>
+          <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
+          <input id="busca" name="busca" type="search" placeholder="Buscar produto ou marca…" autocomplete="off" spellcheck="false" enterkeyhint="search" data-busca>
+        </div>
+        <div class="chips" role="group" aria-label="Categorias" data-chips>
+          <button type="button" class="chip" aria-pressed="true" data-cat="tudo">Tudo</button>
+          <button type="button" class="chip" aria-pressed="false" data-cat="boca">Boca</button>
+          <button type="button" class="chip" aria-pressed="false" data-cat="olhos">Olhos</button>
+          <button type="button" class="chip" aria-pressed="false" data-cat="pele">Pele</button>
+          <button type="button" class="chip" aria-pressed="false" data-cat="skincare">Skincare</button>
+          <button type="button" class="chip" aria-pressed="false" data-cat="corpo">Corpo e perfume</button>
+          <button type="button" class="chip" aria-pressed="false" data-cat="cabelo">Cabelo</button>
+          <button type="button" class="chip" aria-pressed="false" data-cat="acessorios">Acessórios</button>
+          <button type="button" class="chip" aria-pressed="false" data-cat="presentes">Kits</button>
+        </div>
+        <div class="filtros__linha">
+          <button type="button" class="chip chip--preco" aria-pressed="false" data-ate15>
+            <i class="ph ph-tag" aria-hidden="true"></i>Até R$&nbsp;15
+          </button>
+          <label class="ordem">
+            <span class="sr-only">Ordenar</span>
+            <select data-ordem>
+              <option value="variados">Variados</option>
+              <option value="novos">Mais recentes</option>
+              <option value="menor">Menor preço</option>
+              <option value="maior">Maior preço</option>
+            </select>
+            <i class="ph ph-caret-down" aria-hidden="true"></i>
+          </label>
+        </div>
+      </div>
+
+      <p class="loja__contagem" data-contagem aria-live="polite"></p>
+      <ul class="grade" data-grade></ul>
+
+      <div class="loja__vazio" data-vazio hidden>
+        <p><strong>Nada por aqui com esse filtro.</strong> Tenta outra categoria, ou chama a gente no WhatsApp que a gente procura pra ti.</p>
+        <button type="button" class="botao botao--linha" data-limpar>Limpar filtros</button>
+      </div>
+
+      <div class="loja__mais">
+        <button type="button" class="botao botao--linha" data-mais hidden>Mostrar mais produtos</button>
+      </div>
+    </section>
+
+    <!-- Presentes: três células, três conteúdos -->
+    <section class="presentes" id="presentes" aria-labelledby="presentes-titulo">
+      <div class="secao-cabeca">
+        <h2 id="presentes-titulo">Presente bonito, sem dor de cabeça.</h2>
+        <p>Kits prontos para levar, ou um montado por nós com o que a pessoa ama.</p>
+      </div>
+      <div class="bento">
+        <article class="bento__kit" data-revelar>
+          <img src="assets/img/insta/post-kit-alleva.jpg" alt="Kit Alleva Rose Essence em nécessaire transparente: geleia, esfoliante, body splash e sabonete" width="484" height="640" loading="lazy">
+          <div class="bento__info">
+            <h3>Kit Presente Alleva Rose Essence</h3>
+            <p>Nécessaire transparente com geleia hidratante, esfoliante, body splash e sabonete líquido. Pronto para entregar.</p>
+            <div class="bento__compra">
+              <span class="preco">R$&nbsp;79,90 <small>ou 2x de R$&nbsp;39,95</small></span>
+              <button type="button" class="botao botao--cheio botao--p" data-add="927827"><i class="ph ph-plus" aria-hidden="true"></i>Adicionar</button>
+            </div>
+          </div>
+        </article>
+        <article class="bento__duo" data-revelar>
+          <img src="assets/img/produtos/577044.webp" alt="Kit Duo Angels da Cap Life: body splash e hidratante" width="360" height="640" loading="lazy">
+          <div class="bento__info">
+            <h3>Kits Duo Cap Life</h3>
+            <p>Body splash e hidratante da mesma fragrância. Angels, La Bomber ou La Vitta Bella.</p>
+            <div class="bento__compra">
+              <span class="preco">R$&nbsp;24,99</span>
+              <button type="button" class="botao botao--linha botao--p" data-filtrar="presentes">Ver os três</button>
+            </div>
+          </div>
+        </article>
+        <article class="bento__monte" data-revelar>
+          <i class="ph ph-gift" aria-hidden="true"></i>
+          <h3>Quer um kit do teu jeito?</h3>
+          <p>Conta pra gente quem vai ganhar e quanto quer gastar. A gente monta e embala. Kits montados a partir de R$&nbsp;69,90.</p>
+          <a class="botao botao--claro" href="#" data-whats="Oi, Afra! Quero montar um kit presente. É para: ___ e quero gastar até R$ ___.">
+            <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Montar meu kit no WhatsApp
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Como comprar: é uma sequência de verdade, por isso os números -->
+    <section class="caminho" id="como-comprar" aria-labelledby="caminho-titulo">
+      <div class="secao-cabeca">
+        <h2 id="caminho-titulo">Do nosso balcão até a tua porta</h2>
+      </div>
+      <ol class="passos">
+        <li class="passo" data-revelar>
+          <img src="assets/img/insta/kit-balcao.jpg" alt="Kit de presente sobre o balcão da Afra Beauty" width="360" height="640" loading="lazy">
+          <h3><span class="passo__n">1</span>Tu escolhe com calma</h3>
+          <p>Monta a sacolinha aqui no site e manda pra gente no WhatsApp. Prefere cartão? Cada produto também está na nossa loja online.</p>
+        </li>
+        <li class="passo" data-revelar>
+          <img src="assets/img/insta/bilhete.jpg" alt="Cartão de agradecimento da Afra com o nome da cliente escrito à mão" width="360" height="640" loading="lazy">
+          <h3><span class="passo__n">2</span>A gente embala com carinho</h3>
+          <p>Sacolinha da Afra, papel de corações e um cartão de agradecimento com o teu nome escrito à mão.</p>
+        </li>
+        <li class="passo" data-revelar>
+          <img src="assets/img/insta/pedidos-embalados.jpg" alt="Vários pedidos embalados em sacolas da Afra, cada um com o cartão Obrigada" width="360" height="640" loading="lazy">
+          <h3><span class="passo__n">3</span>Chega aí, onde tu estiver</h3>
+          <p>Enviamos para todo o Brasil. O frete é calculado pelo teu CEP na hora de fechar o pedido.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Avaliações reais do Google, publicadas pela própria loja -->
+    <section class="avaliacoes" aria-labelledby="avaliacoes-titulo">
+      <div class="secao-cabeca">
+        <h2 id="avaliacoes-titulo">Quem já recebeu, recomenda</h2>
+        <p class="avaliacoes__nota"><span class="estrelas" aria-hidden="true"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></span>Avaliações de clientes no Google</p>
+      </div>
+      <ul class="mural">
+        <li class="depo" data-revelar>
+          <blockquote>“Os produtos são de altíssima qualidade e o atendimento fez toda a diferença: atencioso, prestativo e muito acolhedor.”</blockquote>
+          <p class="depo__quem">Thainara L.<span>Avaliação 5 estrelas no Google</span></p>
+        </li>
+        <li class="depo" data-revelar>
+          <blockquote>“Produtos de excelente qualidade e preços acessíveis, que compro pra mim e pra presentear as pessoas que amo.”</blockquote>
+          <p class="depo__quem">Silvana R.<span>Avaliação 5 estrelas no Google</span></p>
+        </li>
+        <li class="depo depo--destaque" data-revelar>
+          <blockquote>“A melhor loja.”</blockquote>
+          <p class="depo__quem">Anne N.<span>Avaliação 5 estrelas no Google</span></p>
+        </li>
+        <li class="depo" data-revelar>
+          <blockquote>“Comprei um esfoliante, ele foi bem eficiente e veio de acordo com o anúncio. O produto veio bem embalado também.”</blockquote>
+          <p class="depo__quem">Cleonice A.<span>Local Guide no Google</span></p>
+        </li>
+        <li class="depo" data-revelar>
+          <blockquote>“Ótima qualidade com um bom custo-benefício. Já é a segunda vez que compro com eles, indico bastante!”</blockquote>
+          <p class="depo__quem">Jeferson<span>Avaliação 5 estrelas no Google</span></p>
+        </li>
+        <li class="depo" data-revelar>
+          <blockquote>“Muito bom, ótima qualidade nos produtos e uma baita atenção com o cliente.”</blockquote>
+          <p class="depo__quem">Gustavo A.<span>Avaliação 5 estrelas no Google</span></p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Quem está por trás -->
+    <section class="fundadora" aria-labelledby="fundadora-titulo">
+      <figure class="fundadora__foto">
+        <img src="assets/img/marca/fundadora-sacolas.jpg" alt="Fundadora da Afra Beauty sorrindo, com várias sacolas de pedidos nos braços" width="400" height="720" loading="lazy">
+      </figure>
+      <div class="fundadora__texto">
+        <h2 id="fundadora-titulo">Disseram que ninguém ia comprar na minha loja.</h2>
+        <p class="fundadora__virada">Pois quiseram, gostaram e voltaram.</p>
+        <p>A Afra nasceu em Porto Alegre e funciona até hoje do mesmo jeito: eu testo os produtos, mostro tudo no Insta e embalo cada pedido com as minhas mãos. Tem gente que acha que embalar dá trabalho. Pra mim, é a melhor parte do dia.</p>
+        <p class="fundadora__assina">Fundadora da Afra Beauty</p>
+        <a class="botao botao--linha" href="https://www.instagram.com/afrabeautycosmeticos/" target="_blank" rel="noopener"><i class="ph ph-instagram-logo" aria-hidden="true"></i>Seguir @afrabeautycosmeticos</a>
+      </div>
+    </section>
+
+    <!-- Dúvidas -->
+    <section class="duvidas" aria-labelledby="duvidas-titulo">
+      <div class="secao-cabeca">
+        <h2 id="duvidas-titulo">Ficou alguma dúvida?</h2>
+      </div>
+      <div class="acordeao">
+        <details>
+          <summary>Como faço meu pedido?<i class="ph ph-plus" aria-hidden="true"></i></summary>
+          <p>Coloca os produtos na sacolinha e toca em <strong>Finalizar no WhatsApp</strong>. A mensagem já vai pronta, com a lista e o total. Se preferir pagar no cartão sem conversar, cada produto tem o link da nossa loja online.</p>
+        </details>
+        <details>
+          <summary>Quais são as formas de pagamento?<i class="ph ph-plus" aria-hidden="true"></i></summary>
+          <p>Pix e cartão de crédito em até 2x sem juros. No Pix, pedidos acima de R$&nbsp;60 ganham 10% de desconto com o cupom <strong translate="no">10OFF</strong>.</p>
+        </details>
+        <details>
+          <summary>Vocês entregam na minha cidade?<i class="ph ph-plus" aria-hidden="true"></i></summary>
+          <p>Sim, enviamos para todo o Brasil. O frete é calculado pelo teu CEP na hora de fechar o pedido.</p>
+        </details>
+        <details>
+          <summary>Não sei qual cor ou fragrância escolher. E agora?<i class="ph ph-plus" aria-hidden="true"></i></summary>
+          <p>Chama a gente no WhatsApp e conta o que tu procura. A gente te ajuda a escolher sem pressa.</p>
+        </details>
+        <details>
+          <summary>Qual é o horário de atendimento?<i class="ph ph-plus" aria-hidden="true"></i></summary>
+          <p>De segunda a sexta, das 9h às 18h, e no sábado, das 9h às 13h. Mensagem fora desse horário a gente responde no próximo dia de atendimento.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape__chamada">
+      <p class="rodape__frase">Te influenciando a se mimar.</p>
+      <a class="botao botao--cheio" href="#" data-whats="Oi, Afra! Vim pelo site e queria tirar uma dúvida."><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Chamar no WhatsApp</a>
+    </div>
+    <div class="rodape__grade">
+      <div>
+        <h2 class="rodape__titulo">Atendimento</h2>
+        <ul>
+          <li><a href="#" data-whats="Oi, Afra! Vim pelo site."><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>(51) 98203-2553</a></li>
+          <li><a href="mailto:afrabeautycosmeticos@gmail.com"><i class="ph ph-envelope-simple" aria-hidden="true"></i>afrabeautycosmeticos@gmail.com</a></li>
+          <li><i class="ph ph-clock" aria-hidden="true"></i>Seg a sex, 9h às 18h. Sáb, 9h às 13h.</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="rodape__titulo">Loja</h2>
+        <ul>
+          <li><a href="#loja">Todos os produtos</a></li>
+          <li><a href="#presentes">Kits presente</a></li>
+          <li><a href="#" data-loja-online target="_blank" rel="noopener">Loja online (cartão)<i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/afrabeautycosmeticos/" target="_blank" rel="noopener">Instagram<i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="rodape__legal">© 2026 Afra Beauty Cosméticos. Porto Alegre, RS. Preços sujeitos a alteração e ao estoque disponível.</p>
+  </footer>
+
+  <!-- Botão flutuante: WhatsApp quando a sacolinha está vazia, resumo da sacolinha quando não está -->
+  <div class="flutuante" data-flutuante>
+    <a class="flutuante__whats" href="#" data-whats="Oi, Afra! Vim pelo site e queria tirar uma dúvida." aria-label="Chamar no WhatsApp">
+      <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>
+    </a>
+    <button class="flutuante__sacola" type="button" data-abrir-sacola hidden>
+      <i class="ph ph-handbag-simple" aria-hidden="true"></i>
+      <span data-flutuante-resumo>Ver sacolinha</span>
+    </button>
+  </div>
+
+  <!-- Detalhe do produto -->
+  <dialog class="folha folha--produto" data-produto-dialog aria-labelledby="produto-nome">
+    <div class="folha__corpo">
+      <button class="botao-icone folha__fechar" type="button" data-fechar aria-label="Fechar"><i class="ph ph-x" aria-hidden="true"></i></button>
+      <div class="detalhe" data-detalhe-corpo></div>
+    </div>
+  </dialog>
+
+  <!-- Sacolinha -->
+  <dialog class="folha folha--sacola" data-sacola-dialog aria-labelledby="sacola-titulo">
+    <div class="folha__corpo sacola">
+      <div class="sacola__topo">
+        <h2 id="sacola-titulo">Tua sacolinha</h2>
+        <button class="botao-icone" type="button" data-fechar aria-label="Fechar sacolinha"><i class="ph ph-x" aria-hidden="true"></i></button>
+      </div>
+      <div class="sacola__pix" data-sacola-pix></div>
+      <ul class="sacola__itens" data-sacola-itens></ul>
+      <div class="sacola__vazia" data-sacola-vazia hidden>
+        <i class="ph ph-handbag-simple" aria-hidden="true"></i>
+        <p><strong>Tua sacolinha tá vazia.</strong> Dá uma olhada nos produtos e escolhe teu mimo.</p>
+        <button type="button" class="botao botao--cheio" data-ir-loja>Ver produtos</button>
+      </div>
+      <div class="sacola__fim" data-sacola-fim>
+        <dl class="sacola__total">
+          <div><dt>Subtotal</dt><dd data-sacola-subtotal>R$&nbsp;0,00</dd></div>
+          <div class="sacola__total-pix" data-sacola-linha-pix hidden><dt>No Pix com 10OFF</dt><dd data-sacola-pix-valor>R$&nbsp;0,00</dd></div>
+        </dl>
+        <p class="sacola__frete">O frete a gente calcula pelo teu CEP no WhatsApp.</p>
+        <button type="button" class="botao botao--cheio botao--largo" data-finalizar><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Finalizar no WhatsApp</button>
+        <a class="sacola__loja" href="#" data-loja-online target="_blank" rel="noopener">Prefere pagar no cartão direto pelo site? Compra pela loja online</a>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="aviso" role="status" aria-live="polite" data-aviso></div>
+
+  <script src="js/produtos.js"></script>
+  <script src="js/main.js"></script>
+  <script type="module" src="js/espelho.js"></script>
+</body>
+</html>
